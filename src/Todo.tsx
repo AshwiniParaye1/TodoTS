@@ -9,8 +9,6 @@ export default function Todo() {
     setTodos([...todos]);
   }
 
-  console.log("Render Todo", todos);
-
   return (
     <div>
       <h1 className="text-3xl mb-2 ">Todo</h1>
